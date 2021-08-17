@@ -1,6 +1,9 @@
-![App Brewery Banner](Documentation/AppBreweryBanner.png)
+# Xilofone Br
 
-# Xylophone
+Projeto desenvolvido durante a seção 7 do "Complete iOS App Development Bootcamp". 
+As vinhetas foram baixadas do site https://www.myinstants.com/index/br/ 
+
+
 
 ## Our Goal
 
@@ -50,10 +53,3 @@ class ViewController: UIViewController {
     }
 }
 ```
-
-
-
->This is a companion project to The App Brewery's Complete App Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
-
-![End Banner](Documentation/readme-end-banner.png)
-
