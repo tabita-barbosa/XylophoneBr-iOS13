@@ -27,7 +27,7 @@
                                                 <rect key="frame" x="5" y="0.0" width="404" height="110"/>
                                                 <color key="backgroundColor" systemColor="systemRedColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
-                                                <state key="normal" title="C">
+                                                <state key="normal" title="xaropinho-rapaz">
                                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <color key="titleShadowColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
@@ -47,14 +47,17 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0TK-zm-so9" userLabel="D Key">
                                         <rect key="frame" x="0.0" y="118" width="414" height="110"/>
                                         <subviews>
-                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rHC-RX-B1m">
+                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rHC-RX-B1m" userLabel="xaropinho-rapaz">
                                                 <rect key="frame" x="10" y="0.0" width="394" height="110"/>
                                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
-                                                <state key="normal" title="D">
+                                                <state key="normal" title="cacete-de-agulha">
                                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <color key="titleShadowColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="c05-fo-hVi"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -72,10 +75,13 @@
                                                 <rect key="frame" x="15" y="0.0" width="384" height="110"/>
                                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
-                                                <state key="normal" title="E">
+                                                <state key="normal" title="piao-do-bau">
                                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <color key="titleShadowColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FtT-QS-Cs5"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -93,10 +99,13 @@
                                                 <rect key="frame" x="25" y="0.0" width="364" height="110"/>
                                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
-                                                <state key="normal" title="F">
+                                                <state key="normal" title="errou-rude">
                                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <color key="titleShadowColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3Mi-98-yE8"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -114,10 +123,13 @@
                                                 <rect key="frame" x="30" y="0.0" width="354" height="110"/>
                                                 <color key="backgroundColor" systemColor="systemIndigoColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
-                                                <state key="normal" title="G">
+                                                <state key="normal" title="uepa">
                                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <color key="titleShadowColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pST-IC-emB"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -135,10 +147,13 @@
                                                 <rect key="frame" x="35" y="0.0" width="344" height="110"/>
                                                 <color key="backgroundColor" systemColor="systemBlueColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
-                                                <state key="normal" title="A">
+                                                <state key="normal" title="FDP">
                                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <color key="titleShadowColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Whq-VQ-qye"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -156,10 +171,13 @@
                                                 <rect key="frame" x="40" y="0.0" width="334" height="110"/>
                                                 <color key="backgroundColor" systemColor="systemPurpleColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
-                                                <state key="normal" title="B">
+                                                <state key="normal" title="jacquin">
                                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <color key="titleShadowColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SCz-pv-MTH"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
